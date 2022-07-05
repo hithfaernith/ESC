@@ -1,0 +1,85 @@
+body{
+    /* referenced from developpaper.com */
+    background-image:-webkit-linear-gradient(235deg, rgba(232, 236, 241, 0.8), rgba(108, 122, 137, 0.9));
+    background-position:center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+input[type=submit]{
+    border: none;
+    border-radius: 4px;
+    background-color:rgba(108, 122, 137, 0.5);
+    color:rgba(232, 236, 241, 0.8);
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 12px 12px;
+}
+
+img{
+    width: 144px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:visited{
+    color:grey;
+}
+
+a:hover{
+    color:aquamarine;
+}
+
+a:active{
+    color:aqua;
+}
